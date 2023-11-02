@@ -30,7 +30,7 @@ function App() {
       </div>
       <div className="col-9">
         <Routes>
-          <Route path="/" element={<h1>Личный кабинет, выбирайте из пунктов меню слева</h1>}/>
+          <Route path="/" element={<h1>Выбирайте из пунктов меню слева</h1>}/>
           <Route path="/profile" element={<Profile />} />
           <Route path="/messages" element={<Messages />} />
           <Route path="/friends" element={<Friends />} />
