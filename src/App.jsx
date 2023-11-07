@@ -28,7 +28,7 @@ function App(props) {
               element={<h1>Выбирайте из пунктов меню слева</h1>}
             />
             <Route
-              path="/profile"
+              path="/profile/*"
               element={<Profile function={props.functions.key_getUser} />}
             />
             <Route path="/messages" element={<Messages />} />
