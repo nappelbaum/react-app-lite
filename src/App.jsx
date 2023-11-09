@@ -24,7 +24,7 @@ function App(props) {
         <div className="col-9">
           <Routes>
             <Route
-              path="/"
+              path="/lk/"
               element={<h1>Выбирайте из пунктов меню слева</h1>}
             />
             <Route
